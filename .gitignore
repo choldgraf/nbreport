@@ -1,0 +1,4 @@
+.ipynb_checkpoints
+*.egg-info/
+__pycache__/
+example/an_example_notebook.html

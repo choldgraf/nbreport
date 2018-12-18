@@ -1,0 +1,5 @@
+#!/bin/bash
+
+jupyter bundlerextension enable --py nbreport --sys-prefix
+
+

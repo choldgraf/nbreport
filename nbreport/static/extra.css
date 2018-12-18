@@ -1,0 +1,6 @@
+/* Add an extra style for a figure caption */
+figure figcaption {
+    text-align: center !important;
+    font-style: italic;
+    padding-bottom: 20px;
+}
