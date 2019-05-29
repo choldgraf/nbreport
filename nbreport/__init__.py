@@ -62,8 +62,8 @@ def generate_report(ntbk, path_out):
     # Clean up the notebook
     cleaner = NotebookCleaner(ntbk)
     cleaner.remove_cells(empty=True)
-    cleaner.remove_cells(search_text='hide_cell')
-    cleaner.clear(kind="content", search_text='hide_code')
+    cleaner.remove_cells(tag='hide_cell')
+    cleaner.clear(kind="content", tag='hide_code')
     cleaner.clear('stderr')
 
     path_out_tmp = path_out + '_TMP'
